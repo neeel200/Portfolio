@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.webp"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "skills/javascriptImage.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "GraphQL",
+    "imageSrc": "skills/graphql.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
+  },
+  {
+    "title": "Sql",
+    "imageSrc": "skills/sql.svg"
+  },
+  {
+    "title": "Kafka",
+    "imageSrc": "skills/kafka (2).svg"
+  },
+  {
+    "title": "Websockets",
+    "imageSrc": "skills/websocket.svg"
+  },
+  {
+    "title": "Express",
+    "imageSrc": "skills/Express.svg"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
+  }
+]

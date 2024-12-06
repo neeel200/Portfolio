@@ -1,0 +1,19 @@
+[
+
+  {
+    "title": "Vercel-X",
+    "imageSrc": "projects/vercel2.png",
+    "description": "Built a backend mimicking Vercel’s deployment system with automated asset deployment and a scalable architecture featuring a reverse proxy for efficient routing.",
+    "skills": ["Docker", "AWS S3", "AWS ECR", "AWS ECS", "Redis", "Websockets", "Node"],
+    "demo": "https://github.com/neeel200/Vercel-X",
+    "source": "https://github.com/neeel200/Vercel-X"
+  },
+  {
+    "title": "SnapTalk",
+    "imageSrc": "projects/ChatApplication.jpg",
+    "description": "A real-time Chat Application for instant messaging and media uploads.",
+    "skills": ["React", "AWS S3", "Express", "Node", "Mongodb", "Websockets", "ChakraUI"],
+    "demo": "https://snaptalk-aysb.onrender.com",
+    "source": "https://github.com/neeel200/SnapTalk"
+  }
+]
