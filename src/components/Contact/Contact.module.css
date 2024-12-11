@@ -3,8 +3,13 @@
 .container {
   color: var(--color-text);
   margin-top: 120px;
-  background-image: linear-gradient(90deg,rgb(6, 59, 202), rgb(55, 99, 221));
-  /* background-color: var(--color-secondary); */
+  /* background-image: linear-gradient(90deg,rgb(6, 59, 202), rgb(55, 99, 221)); */
+  background-image: linear-gradient(
+    90deg,
+    var(--color-gradient-first),
+    var(--color-gradient-btw-f-and-s)
+  );
+
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -14,7 +19,6 @@
 }
 
 .text h2 {
-
   font-size: 1.8em;
   font-weight: 700;
   letter-spacing: 4px;
@@ -50,13 +54,12 @@
 }
 
 .link img {
-  max-width: 30px ;
+  max-width: 30px;
 }
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
     gap: 23px;
-
   }
 
   .text {

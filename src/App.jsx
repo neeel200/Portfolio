@@ -5,17 +5,18 @@ import { About } from "./components/About/About.jsx";
 import { Experience } from "./components/Experience/Experience.jsx";
 import { Projects } from "./components/Projects/Projects.jsx";
 import { Contact } from "./components/Contact/Contact.jsx";
+import {ThemeProvider } from "./context/ThemeContext.jsx";
 function App() {
   return (
     <div className={styles.App}>
-      
+      <ThemeProvider>
       <Navbar />
       <Hero />
       <About />
       <Experience />
       <Projects />
       <Contact />
-      
+      </ThemeProvider>
     </div>
   );
 }

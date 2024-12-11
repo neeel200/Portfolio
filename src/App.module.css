@@ -1,9 +1,12 @@
 @import "./vars.css";
-.App{
-    background-image: linear-gradient(to bottom, #b3b6e0, #1a3fcf);
-    width:100%;
-    height: 100%;
-    overflow: hidden;
+.App {
+  /* background-image: linear-gradient(to bottom, #b3b6e0, #1a3fcf); */
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-app-first),
+    var(--color-app-second)
+  );
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
-
-

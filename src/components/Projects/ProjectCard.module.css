@@ -11,8 +11,8 @@
   justify-content: flex-start;
   align-content: center;
   border-radius: 10px;
-  background: linear-gradient(180deg, #657ee4 40%, #3b39b8 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
+  background: linear-gradient(180deg, var(--color-gradient-second) 0%, var(--color-gradient-first) 100%);
+  box-shadow: 0px 10px 15px 5px var(--box-shadow-2);
   max-width: 345px;
   min-height: 33em;
 }
@@ -58,6 +58,9 @@
   display: flex;
   font-size: 1.2em;
   justify-content: space-around;
+}
+.links a:hover{
+  background-color: var(--box-shadow-2);
 }
 
 .link {

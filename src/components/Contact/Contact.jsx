@@ -6,8 +6,7 @@ export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
-        <h2>CONTACT</h2>
-        <p>Feel free to reach out !</p>
+        <h2>Let's Discuss !</h2>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
@@ -21,10 +20,6 @@ export const Contact = () => {
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
           <a href="https://github.com/neeel200">github.com/neeel200</a>
-        </li>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/LeetCode_Logo_1.png")} alt="leetcode icon" />
-          <a href="https://leetcode.com/u/neel200/">leetcode/neel200</a>
         </li>
       </ul>
     </footer>
