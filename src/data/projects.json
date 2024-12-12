@@ -5,7 +5,7 @@
     "imageSrc": "projects/vercel2.png",
     "description": "Built a backend mimicking Vercel’s deployment system with automated asset deployment and a scalable architecture featuring a reverse proxy for efficient routing.",
     "skills": ["Docker", "AWS S3", "AWS ECR", "AWS ECS", "Redis", "Websockets", "Node"],
-    "demo": "https://github.com/neeel200/Vercel-X",
+    "demo": "https://www.loom.com/share/3aa4df0523f549ce9bf3695d4edbe7d4?sid=9e225859-caa1-4309-9e93-a3c20b31637a",
     "source": "https://github.com/neeel200/Vercel-X"
   },
   {
