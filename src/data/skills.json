@@ -16,6 +16,14 @@
     "imageSrc": "skills/javascriptImage.png"
   },
   {
+    "title": "Nest",
+    "imageSrc": "skills/Nest.js.svg"
+  },
+  {
+    "title": "Nextjs",
+    "imageSrc": "skills/next.js.svg"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
@@ -54,5 +62,13 @@
   {
     "title": "TypeScript",
     "imageSrc": "skills/typescript.png"
+  },
+  {
+    "title": "GoLang",
+    "imageSrc": "skills/go.svg"
+  },
+  {
+    "title": "Kubernetes",
+    "imageSrc": "skills/kubernetes.svg"
   }
 ]

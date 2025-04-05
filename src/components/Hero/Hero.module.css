@@ -50,31 +50,35 @@
 }
 
 .contactBtn:hover {
-    background-color: #021e6b;
+    background-color: var(--color-btn-hover);
 }
 .heroImg {
     width: 25%;
     z-index: 1;
     border-radius: 50%;
-    animation-name: floating;
-    animation-duration: 2.2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
+    animation: breatheAndTilt 4.5s ease-in-out infinite;
+    transition: transform 0.25s ease-in-out;
+  }
+  
 
-@keyframes floating {
+@keyframes breatheAndTilt {
     0% {
-        transform: translate(0, 0px);
+      transform: scale(1) rotate(0deg);
     }
-
+    25% {
+      transform: scale(1.015) rotate(1deg);
+    }
     50% {
-        transform: translate(0, 10px);
+      transform: scale(1.03) rotate(0deg);
     }
-
+    75% {
+      transform: scale(1.015) rotate(-1deg);
+    }
     100% {
-        transform: translate(0, 0px);
+      transform: scale(1) rotate(0deg);
     }
-}
+  }
+  
 
 .topBlur {
     position: absolute;

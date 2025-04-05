@@ -28,7 +28,7 @@
 }
 
 .menuItems a {
-  color: whitesmoke;
+  color: rgb(92, 126, 235);
   text-decoration: none;
 }
 
@@ -105,6 +105,8 @@ label svg.moon {
 }
 
 @media screen and (min-height: 950px) {
+
+
   label{
     width: 12%;
     height: 4vh;
@@ -116,93 +118,7 @@ label svg.moon {
   }
 }
 
-/* 
-label {
-  text-align: center;
-  width: 8%;
 
-  height: 5vh;
-
-  position: relative;
-
-  display: block;
-
-  background: #ebebeb;
-
-  border-radius: 100px;
-
-  box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4),
-    inset 0px -5px 15px rgba(255, 255, 255, 0.4);
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-label:after {
-  content: "";
-
-  width: 37%;
-  height: 95%;
-
-  position: absolute;
-
-  left: 3px;
-  top: 5%;
-  background: #ffcc89;
-
-  border-radius: 50%;
-
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-}
-
-input {
-  width: 0;
-  height: 0;
-  visibility: hidden;
-}
-
-input:checked + label {
-  background: #3b3b3b;
-}
-input:checked + label:after {
-  left: 95%;
-  transform: translateX(-100%);
-  background: linear-gradient(180deg, #777, #3a3a3a);
-}
-
-label svg {
-  position: absolute;
-  width: 40%;
-  z-index: 100;
-}
-label svg.sun {
-  left: 0px;
-  fill: #fff;
-  transition: 0.3s;
-}
-label svg.moon {
-  right: 0px;
-  fill: #7e7e7e;
-  transition: 0.3s;
-}
-input:checked + label svg.sun {
-  fill: #7e7e7e;
-}
-
-input:checked + label svg.moon {
-  fill: #fff;
-} 
-@media screen and (min-height: 950px) {
-  label{
-    width: 12%;
-    height: 4vh;
-  }
-  label:after, label svg {
-    top:25%;
-    width: 30%;
-    height: 50%;
-  }
-} */
 
 @media screen and (max-width: 550px) {
   .navbar {
@@ -239,7 +155,10 @@ input:checked + label svg.moon {
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }
   .menuItems a:hover {
-    color: rgb(183, 194, 247);
+    color: rgb(31, 56, 182);
+  }
+  .menuItems a:hover {
+    color: rgb(31, 56, 182);
   }
   .menuOpen {
     display: flex;

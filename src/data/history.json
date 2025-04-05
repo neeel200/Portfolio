@@ -1,12 +1,20 @@
 [
   {
-    "role": "Backend Developer",
-    "organisation": "Persistent Digital Commerce Pvt. Ltd.",
-    "startDate": "Nov, 2023",
+    "role": "Backend Engineer ",
+    "organisation": "Zendr Ltd. ",
+    "startDate": "March, 2025",
     "endDate": "Present",
     "experiences": [
      
-    ],
-    "imageSrc": "history/PDCImage.avif"
+    ]
+  },
+  {
+    "role": "Backend Developer",
+    "organisation": "Persistent Digital Commerce Pvt. Ltd.",
+    "startDate": "Nov, 2023",
+    "endDate": "Nov, 2024",
+    "experiences": [
+     
+    ]
   }
 ]
