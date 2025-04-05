@@ -56,8 +56,8 @@
     width: 25%;
     z-index: 1;
     border-radius: 50%;
-    animation: breatheAndTilt 4.5s ease-in-out infinite;
-    transition: transform 0.25s ease-in-out;
+    animation: breatheAndTilt 2.8s ease-in-out infinite;
+
   }
   
 
